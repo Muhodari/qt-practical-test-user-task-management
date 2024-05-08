@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple user and task  management system which allows user to create  create, edit, delete and updating the progress of the task
+This is a simple user and task  management system which allows user to create, edit, delete and updating the progress of the task
 as completed or incompleted and also mark the priority of the task as Low, Normal or High in the end all this information are stored in database
 in which app allows user to view task into paginated table with filters and sorting basing on columns.
 
