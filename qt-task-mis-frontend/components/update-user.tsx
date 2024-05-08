@@ -75,7 +75,7 @@ export function UpdateUserForm({user}:{user:IUser}) {
                         <FormItem>
                             <FormLabel>First Name</FormLabel>
                             <FormControl>
-                                <Input placeholder="Clarance Liberi" {...field} />
+                                <Input placeholder="Sage" {...field} />
                             </FormControl>
                             <FormMessage />
                         </FormItem>
@@ -88,7 +88,7 @@ export function UpdateUserForm({user}:{user:IUser}) {
                         <FormItem>
                             <FormLabel>Last Name</FormLabel>
                             <FormControl>
-                                <Input placeholder="Ntwari" {...field} />
+                                <Input placeholder="Muhodari" {...field} />
                             </FormControl>
                             <FormMessage />
                         </FormItem>

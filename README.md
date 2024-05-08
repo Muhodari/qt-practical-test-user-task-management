@@ -11,7 +11,9 @@ in which app allows user to view task into paginated table with filters and sort
 ![ERD](./ERD.png)
 
 ## SwaggerUI
- accessed here after starting backend server:  http://localhost:8080/swagger-ui/index.html
+ accessed here after starting backend server: 
+ 
+  http://localhost:8080/swagger-ui/index.html
 
 ![SwaggerUI](./swagger1.png)
 ![SwaggerUI](./sawgger2.png)
