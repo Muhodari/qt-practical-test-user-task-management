@@ -206,7 +206,7 @@ export default function Users(){
                 <h1>Users</h1>
                 
                 <Dialog>
-                  <DialogTrigger><Button>Create User</Button></DialogTrigger>
+                  <DialogTrigger><Button className="bg-blue-900">Create User</Button></DialogTrigger>
                   <DialogContent>
                     <DialogHeader>
                       <DialogTitle>Create a new User</DialogTitle>

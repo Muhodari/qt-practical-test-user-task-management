@@ -154,9 +154,6 @@ export function CreateTaskForm() {
                                         />
                                         </PopoverContent>
                                     </Popover>
-                                    <FormDescription>
-                                        When the task starts.
-                                    </FormDescription>
                                     <FormMessage />
                                     </FormItem>
                                 )}
@@ -200,9 +197,6 @@ export function CreateTaskForm() {
                                         />
                                         </PopoverContent>
                                     </Popover>
-                                    <FormDescription>
-                                        When the task starts.
-                                    </FormDescription>
                                     <FormMessage />
                                     </FormItem>
                                 )}
@@ -251,7 +245,7 @@ export function CreateTaskForm() {
                         name="description"
                         render={({ field }) => (
                             <FormItem>
-                            <FormLabel>Task Description</FormLabel>
+                            <FormLabel>Description</FormLabel>
                             <FormControl>
                                 <Textarea
                                 placeholder="Provide a detailed description of the task...."
@@ -261,8 +255,7 @@ export function CreateTaskForm() {
                             </FormControl>
                             <FormDescription>
                                 <div className="flex justify-between">
-                                    <p>You can <span>@mention</span> other project and assignees.</p>
-                                    <p>{field.value.length}/200</p>
+                                    <p>{field.value.length}/30</p>
                                 </div>
                             </FormDescription>
                             <FormMessage />

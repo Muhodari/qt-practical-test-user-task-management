@@ -236,12 +236,12 @@ export default function Tasks(){
             <div className="flex justify-between pb-6 pt-4">
                 <h1>Tasks</h1>
                 
-                <div className="flex space-x-4 items-center">
-                <Button onClick={handleDownload}>
+                <div className="flex space-x-4 items-center text-white">
+                <Button onClick={handleDownload} className="bg-blue-900">
                       <span> <DownloadIcon /> </span>
                       <span>Download</span>
                     </Button>
-                <Button onClick={() => router.push('/dashboard/tasks/new')}>Create Task</Button>
+                <Button onClick={() => router.push('/dashboard/tasks/new')} className="bg-blue-900">Create Task</Button>
                 </div>
   
             </div>

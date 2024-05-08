@@ -191,7 +191,7 @@ export default function Projects(){
                 <h1>Projects</h1>
                 
                 <div className="flex space-x-4 items-center">
-                <Button onClick={() => router.push('/dashboard/projects/new')}>Create Project</Button>
+                <Button onClick={() => router.push('/dashboard/projects/new')} className="bg-blue-900">Create Project</Button>
                 </div>
             </div>
         

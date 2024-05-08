@@ -2,11 +2,9 @@
 
 ## Description
 
-This is a simple task management system that allows you to create, edit, and delete tasks. It also allows you to mark tasks as complete and incomplete. The tasks are stored in a database and are displayed in a table. The table can be sorted by any of the columns. The tasks can also be filtered by the status of the task.
-
-## Architecture
-
-![Architecture](./architecture.jpg)
+This is a simple user and task  management system which allows user to create  create, edit, delete and updating the progress of the task
+as completed or incompleted and also mark the priority of the task as Low, Normal or High in the end all this information are stored in database
+in which app allows user to view task into paginated table with filters and sorting basing on columns.
 
 ## ERD
 
@@ -18,6 +16,10 @@ This is a simple task management system that allows you to create, edit, and del
 ![SwaggerUI](./sawgger2.png)
 ![SwaggerUI](./swagger3.png)
 ![SwaggerUI](./swagger4.png)
+
+## Architecture
+
+![Architecture](./architecture.jpg)
 
 ## Documentation
 

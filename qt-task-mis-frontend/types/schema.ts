@@ -26,7 +26,7 @@ export const projectSchema = z.object({
 export const taskSchema = z.object({
   id: z.string().optional(),
   name: z.string().min(5, 'Task name must be at least 5 characters'),
-  description: z.string().min(100, 'Task description must be at least 100 characters').max(200, 'Task description must be at most 200 characters'),
+  description: z.string().min(1, 'Task description must be at least 1 characters').max(30, 'Task description must be at most 30 characters'),
   status: z.string(),
   priority: z.string(),
   startDate: z.date(),

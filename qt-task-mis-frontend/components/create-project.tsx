@@ -117,8 +117,7 @@ export function CreateProjectForm() {
                             </FormControl>
                             <FormDescription>
                                 <div className="flex justify-between">
-                                    <p>You can <span>@mention</span> other project and assignees.</p>
-                                    <p>{field.value.length}/200</p>
+                                    <p>{field.value.length}/30</p>
                                 </div>
                             </FormDescription>
                             <FormMessage />
